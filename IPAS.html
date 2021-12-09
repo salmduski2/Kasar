@@ -1,0 +1,105 @@
+<!DOCTYPE html>	
+<html>
+<head>
+<title>SuperCharge</title>
+<link rel="stylesheet" href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover minimal-ui standalone">
+<link rel="manifest" href="manifest.json">
+<meta name="description" content="AppInstaller iOS Is A Tweaked AppStore For iOS Devices">
+<link rel="apple-touch-startup-image" href="https://appinstallerios.com/img/LaunchImage.png">
+<link rel='icon' href='SuperChargeIcon.png' type='image/x-icon'/ >
+<link rel="apple-touch-icon" href="SuperChargeIcon.png"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<center>
+<a href="Sections">
+<div class="name">
+<h1>IPA Files</h1>
+</div>
+</a>
+<br>
+<br>
+<br>
+<div class="search">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+</div>
+</center>
+<center>
+<ul id="myUL">
+<li>
+<a href="https://tweakhome.app/Apps/signed/saily.ipa">
+<div class="apps">
+<img src="https://icons.appinstallerios.com/SailyIcon.png">
+<h1>Saily</h1>
+</div>
+</a>
+</li>
+<li>
+<a href="https://repo.saunderstech.co/apps/Lodging/DolphiniOS.ipa">
+<div class="apps">
+<img src="https://icons.appinstallerios.com/DolphiniOSIcon.png">
+<h1>DolphiniOS</h1>
+</div>
+</a>
+</li>
+<li>
+<a href="https://repo.saunderstech.co/apps/Lodging/MeSNEmu.ipa">
+<div class="apps">
+<img src="https://icons.appinstallerios.com/MeSNEmuIcon.png">
+<h1>MeSNEmu</h1>
+</div>
+</a>
+</li>
+<li>
+<a href="https://resources.appinstallerios.com/ScreenSaver.ipa">
+<div class="apps">
+<img src="https://icons.appinstallerios.com/ScreenSaverIcon.png">
+<h1>ScreenSaver</h1>
+</div>
+</a>
+</li>
+<li>
+<a href="https://repo.saunderstech.co/apps/Lodging/Instagram++.ipa">
+<div class="apps">
+<img src="https://icons.appinstallerios.com/Instagram++Icon.png">
+<h1>Instagram++</h1>
+</div>
+</a>
+</li>
+<li>
+<a href="https://repo.saunderstech.co/apps/Lodging/YouTubeMusic++.ipa">
+<div class="apps">
+<img src="https://icons.appinstallerios.com/YouTubeMusicIcon.png">
+<h1>YouTubeMusic++</h1>
+</div>
+</a>
+</li>
+</ul>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, div, h1, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    h1 = li[i].getElementsByTagName("h1")[0];
+    txtValue = h1.textContent || h1.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</html>
