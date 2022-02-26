@@ -4,7 +4,7 @@ padding: 0;
 font-family: -apple-system;
 color: #e8effa;
 overflow-x: hidden;
-background-color: #000000;
+background-color: #2036AE;
 -webkit-touch-callout: none;
 user-select: none;
 -webkit-user-select: none;
@@ -41,7 +41,7 @@ border-radius: 60px;
 margin: 15px;
 }
 .card-devs a {
-color: #3bff0a;
+color: #111720;
 display: block;
 width: 120px;
 padding-top: 10px;
@@ -53,7 +53,7 @@ display: inline-block;
 }
 .card-devs a:hover {
 color: #e8effa;
-background-color: #3bff0a;
+background-color: #111720;
 border: 2px solid #e8effa;
 }
 @font-face {
@@ -62,7 +62,7 @@ src: url(fonts/Font.TTF);
 }
 @font-face {
 font-family: Framework7 Icons;
-src: url(https://kasar.store/fonts/Framework7Icons-Regular.woff2);
+src: url(https://kasar.ml/fonts/Framework7Icons-Regular.woff2);
 }
 @supports (
   (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
@@ -87,7 +87,7 @@ src: url(https://kasar.store/fonts/Framework7Icons-Regular.woff2);
   }
 }
 .nav a:hover {
-color: #3bff0a;
+color: #111720;
 }
 .nav a {
 font-size: 45px;
@@ -96,7 +96,7 @@ margin: 15.8px;
 text-shadow: 1px 2px 10px #1E93FF;
 }
 .apps:hover {
-background-color: #3bff0a;
+background-color: #000;
 }
 .apps {	
 width: 85%;
