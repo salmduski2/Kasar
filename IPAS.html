@@ -5,101 +5,71 @@
 <link rel="stylesheet" href="main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover minimal-ui standalone">
 <link rel="manifest" href="manifest.json">
-<meta name="description" content="Kasar Is A Tweaked AppStore For iOS Devices">
+<meta name="description" content="Kasar iOS Is A Tweaked AppStore For iOS Devices">
 <link rel="apple-touch-startup-image" href="https://kasar.store/img/LaunchImage.png">
-<link rel='icon' href='Kasaricon.png' type='image/x-icon'/ >
-<link rel="apple-touch-icon" href="Kasaricon.png"/>
+<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+<link rel="apple-touch-icon" href="favicon.ico"/>
 <meta name="apple-mobile-web-app-capable" content="yes">
 </head>
-<center>
-<a href="Sections">
 <div class="name">
+<a href="Sections" class="tab">chevron_left</a>
 <h1>IPA Files</h1>
 </div>
-</a>
 <br>
 <br>
 <br>
-<div class="search">
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
-</div>
-</center>
 <center>
-<ul id="myUL">
-<li>
-<a href="https://mega.nz/file/oNFWGBxC#JQCiQcEmp-62lq6AyAv_2CDeV0V1nkee365oH9_5RD4">
-<div class="apps">
-<img src="https://icons.kasar.store/Pubg.png">
-<h1>Pubg Mobile</h1>
-</div>
-</a>
-</li>
-<li>
-<a href="https://mega.nz/file/kWgE2YIB#K6q4cZbXu0gEd06WwpfxyTnQclELcumKOsed_hl76ic">
+<a href="https://up-ipa.com/uploads/up-ipa.com8Ball-CFire-5-5-3-cydiafire_84c31.ipa">
 <div class="apps">
 <img src="https://icons.kasar.store/8BallPoolI.png">
 <h1>8 Ball Pool</h1>
 </div>
 </a>
-</li>
-<li>
-<a href="https://mega.nz/file/FaB0AbIa#aQPDFM1IYz8TAi8ez7ZcdSgnSJURs_Hb1QwK8mMNOpw">
+<a href="https://up-ipa.com/uploads/up-ipa.comgl4Signed.ipa">
 <div class="apps">
-<img src="https://icons.kasar.store/rokkr.png">
-<h1>Rokkr</h1>
+<img src="https://icons.kasar.store/Pubg.png">
+<h1>Pubg Mobile</h1>
 </div>
 </a>
-</li>
-<li>
+<a href="IPAS/Kasar.ipa">
+<div class="apps">
+<img src="https://kasar.store/Kasaricon.png">
+<h1>Kasar</h1>
+</div>
+</a>
+<a href="https://repo.saunderstech.co/apps/Lodging/PPSSPP.ipa">
+<div class="apps">
+<img src="https://icons.kasar.store/PPSSPP.png">
+<h1>PPSSPP</h1>
+</div>
+</a>
 <a href="IPAS/HDOPlayer.ipa">
 <div class="apps">
 <img src="https://icons.kasar.store/Hdo-Player.png">
 <h1>Hdo-Player++</h1>
 </div>
 </a>
-</li>
-<li>
 <a href="IPAS/Zefix-kasar.ipa">
 <div class="apps">
 <img src="https://icons.kasar.store/ZiniTevi.png">
 <h1>ZiniTevi++</h1>
 </div>
 </a>
-</li>
-<li>
 <a href="IPAS/cpu-x.ipa">
 <div class="apps">
 <img src="https://icons.kasar.store/cpu-x.png">
 <h1>CPU-x</h1>
 </div>
 </a>
-</li>
-</ul>
 </center>
 <br>
 <br>
 <br>
 <br>
 <br>
-<script>
-function myFunction() {
-  // Declare variables
-  var input, filter, ul, li, div, h1, i, txtValue;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName('li');
-
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    h1 = li[i].getElementsByTagName("h1")[0];
-    txtValue = h1.textContent || h1.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-</script>
+<div class="nav">	
+<a href="Sections" class="tab">rectangle_stack_fill</a>
+<a href="index" class="tab">house_fill</a>
+<a href="Search" class="tab">search_fill</a>
+</div>
 </html>
