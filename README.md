@@ -1,3 +1,0 @@
-# kasarkhatari
-# kasardarman
-# kasar
