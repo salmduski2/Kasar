@@ -4,15 +4,15 @@
     "sourceURL": "https://kasar.store/apps.json",
     "apps": [
         {
-            "name": "KasarStore",
-            "bundleIdentifier": "p3.xyz.yyyue.esign",
+            "name": "Hdo-Player++",
+            "bundleIdentifier": "app.kasar.store",
             "developerName": "KasarKhatari",
-            "version": "4.5.1",
+            "version": "1.42.",
             "versionDate": "2022-08-20",
             "versionDescription": "Coming...",
             "downloadURL": "https://kasar.store/IPAS/HDOPlayer.ipa",
             "localizedDescription": "轻松签是一款免越狱可给ipa签名的工具，具有注入库，去库等功能。",
-            "iconURL": "https://kasar.store/favicon.ico",
+            "iconURL": "https://icons.kasar.store/Hdo-Player.png",
             "tintColor": "018084",
             "isLanZouCloud": 0,
             "size": 7206362
