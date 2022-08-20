@@ -1,6 +1,7 @@
 {
     "name": "KasarStore",
     "identifier": "store.kasar..ml",
+    "iconURL": "https://kasar.store/favicon.ico",
     "sourceURL": "https://kasar.store/apps.json",
     "apps": [
         {
