@@ -2,7 +2,7 @@
     "name": "KASAR",
     "identifier": "kasar.store.app",
     "sourceURL": "https://kasar.store",
-    "sourceImage": "https://kasar.store/favicon.ico",
+    "sourceImage": "https://kasar.store/Kasaricon.png",
     "sourcceDescription": "made:@kasarstore",
     "apps": [
 
@@ -11,8 +11,8 @@
             "bundleIdentifier": "ml.kasar.store",
             "developerName": "KASAR",
             "version": "2.1",
-            "versionDate": "2022-08-28T11:36:00+08:00",
-            "versionDescription": "Aimbot esp+",
+            "versionDate": "2022-09-8T11:36:00+08:00",
+            "versionDescription": "Free V5",
             "downloadURL": "https://archive.org/download/kasar.ml_2.1.2_1662521093/kasar.ml_2.1.2_1662521093.ipa",
             "localizedDescription": "PUBG MOBILE",
             "iconURL": "https://icons.kasar.store/Pubg.png",
