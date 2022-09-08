@@ -2,7 +2,7 @@
     "name": "KASAR",
     "identifier": "kasar.store.app",
     "sourceURL": "https://kasar.store",
-    "sourceImage": "https://kasar.store/Kasaricon.png",
+    "iconURL": "https://kasar.store/Kasaricon.png",
     "sourcceDescription": "made:@kasarstore",
     "apps": [
 
