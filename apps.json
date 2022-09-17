@@ -7,14 +7,14 @@
     "apps": [
 
         {
-            "name": "PUBG MOBILE",
+            "name": "PUBG MOBILE KR",
             "bundleIdentifier": "ml.kasar.store",
             "developerName": "KASAR",
             "version": "2.1",
             "versionDate": "2022-09-13T11:36:00+08:00",
-            "versionDescription": "VNG",
-            "downloadURL": "https://archive.org/download/kasar_202209/kasarpubg.ipa",
-            "localizedDescription": "IGG+",
+            "versionDescription": "KR",
+            "downloadURL": "https://archive.org/download/pubg-mobile-2.2.0-1663380162/PUBG%20MOBILE_2.2.0_1663380162.ipa",
+            "localizedDescription": "IGG+ 2.1.0",
             "iconURL": "https://icons.kasar.store/Pubg.png",
             "tintColor": "018084",
             "isLanZouCloud": 1,
