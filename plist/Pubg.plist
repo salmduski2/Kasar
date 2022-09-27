@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/kasar.ml_2.1.2_1662521093/kasar.ml_2.1.2_1662521093.ipa</string>
+					<string>https://archive.org/download/channelkasarstore/channel%40kasarstore.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -35,7 +35,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Telegram@kasarstore</string>
+				<string>⚡Telegram@kasarstor⚡e</string>
 			</dict>
 		</dict>
 	</array>
