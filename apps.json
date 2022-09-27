@@ -7,14 +7,14 @@
     "apps": [
 
         {
-            "name": "PUBG MOBILE KR",
+            "name": "PUBG MOBILE",
             "bundleIdentifier": "ml.kasar.store",
             "developerName": "KASAR",
             "version": "2.2.0",
-            "versionDate": "2022-09-17T11:36:00+08:00",
-            "versionDescription": "KR",
-            "downloadURL": "https://archive.org/download/pubg-mobile-2.2.0-1663380162/PUBG%20MOBILE_2.2.0_1663380162.ipa",
-            "localizedDescription": "IGG+",
+            "versionDate": "2022-09-27T11:36:00+08:00",
+            "versionDescription": "GL",
+            "downloadURL": "https://archive.org/download/channelkasarstore/channel%40kasarstore.ipa",
+            "localizedDescription": "Aimbot 50 No Recoil",
             "iconURL": "https://icons.kasar.store/Pubg.png",
             "tintColor": "018084",
             "isLanZouCloud": 1,
