@@ -51,7 +51,7 @@ nice.backgroundViewColor = [UIColor colorWithRed: 0.47 green: 0.23 blue: 0.41 al
  
  
 [nice addButton: @"Telegram Group" validationBlock: ^BOOL {
-[[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"https://t.me/SD3MII"]];
+[[UIApplication sharedApplication] openURL: [NSURL URLWithString:@"https://t.me/iOSHACKINGChat"]];
 BOOL shouldClosePopup = false;
 return shouldClosePopup;
 } actionBlock:^{}];
