@@ -1,2 +1,2 @@
-# Kasar
+# https://kasar.store
 Kasar Store
